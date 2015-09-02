@@ -1,0 +1,9 @@
+<table class="table table-hover">
+    <tbody>
+        <tr ng-repeat="skill in skills">
+            <th>{{skill.name}}</th>
+            <td>{{skill.value}}</td>
+        </tr>
+        <md-divider ng-if="!$last"></md-divider>
+    </tbody>
+</table>
